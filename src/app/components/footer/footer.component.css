@@ -1,0 +1,15 @@
+.footer-curve{
+    padding-top: 2rem;
+    background-color: steelblue;
+    color: aliceblue;
+}
+.footer-curve a{
+    color: aliceblue;
+    padding: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .footer-curve{
+      text-align: center;
+      
+    }
+  }

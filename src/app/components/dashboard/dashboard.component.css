@@ -1,0 +1,115 @@
+.main-1{
+    padding: 10rem;
+    text-align: center;
+}
+
+.main-1 .row {
+  margin-top: 4rem;
+    paddding-top: 5rem;
+    color: gray;
+    padding-bottom: 10rem;
+}
+.row p{
+    text-align: left;
+    font-size: 14px;
+}
+.row hr{
+    color: blue;
+    border: 2px;
+}
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  #animate-area {
+    background-image: url(C:\wImportantFolder\demoProject\src\assets\download.png);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+   
+    
+  }
+#img-main-2{
+    background-image: url('https://www.thebalance.com/thmb/UZS2curMfBJpwbb8LrvpxttXhA0=/2103x1428/filters:fill(auto,1)/Stock-Market-Charts-Are-Useless-56a093595f9b58eba4b1ae5b.jpg');
+    /* position: relative; */
+    /* opacity: 0.8; */
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.main-2 li{
+    list-style: none;
+}
+.main-2{
+  background: rgba(82, 107, 103, 0.7);
+    padding: 10rem;
+    text-align: end;
+    color:white;
+}
+
+#img-main-3{
+  background-image: url('https://wallpaperaccess.com/full/2579546.jpg');
+  width: 100%;
+  /* opacity: 0.8; */
+  background-size: cover;
+    background-attachment: fixed;
+}
+.main-3{
+  padding: 10rem;
+  text-align: left;
+  color: aliceblue;
+  background:  rgba(149, 66, 55, 0.7);
+}
+#img-main-4{
+  background-image: url('http://images.unsplash.com/photo-1508402476522-c77c2fa4479d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+  background-size: cover;
+    background-attachment: fixed;
+}
+.main-4{
+  background: rgba(18, 4, 212, 0.3);
+  padding: 10rem;
+  text-align: center;
+  color: aliceblue;
+}
+.main-4 p{
+  padding: 1rem;
+  text-align: center;
+  font-size:20px;
+}
+.main-4 i{
+  font-size: 5rem;
+  padding: 2rem;
+  
+}
+
+#img-main-5{
+  background-image: url('https://assets.entrepreneur.com/content/3x2/2000/20190206192329-GettyImages-1015140378.jpeg');
+  background-size: cover;
+    background-attachment: fixed;
+}
+.main-5{
+  padding: 10rem;
+  background: rgba(75, 30, 30, 0.7);
+}
+.main-5 input ,textarea{
+  background: transparent;
+  width: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-1{
+    margin-top: 4rem;
+  }
+  .main-1, .main-2, .main-3, .main-4, .main-5{
+    padding: 2rem;
+    
+  }
+  
+}

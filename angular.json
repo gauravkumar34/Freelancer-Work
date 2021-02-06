@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "demoProject"
+  "defaultProject": "demoProject",
+  "cli": {
+    "analytics": "5c57012c-0418-481d-a0c3-984ac3e5947a"
+  }
 }

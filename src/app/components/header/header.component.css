@@ -1,0 +1,19 @@
+.navbar-margin{
+    margin: 0 2rem ;
+}
+.logo-img{
+    height: 2rem;
+    width: 6rem;
+}
+a{
+    font-size: 13px;
+    
+}
+ul a:hover{
+    color: aliceblue;
+    background-color: rgb(130, 184, 235);
+    text-decoration: underline;
+    border: 1px solid;
+    box-shadow: 2px 2px #888888;
+}
+
